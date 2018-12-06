@@ -7,7 +7,7 @@ describe('addTwoNumbers()', function () {
     // 1. ARRANGE
     var x = 6;
     var y = 2;
-    var sum1 = x - y;
+    var sum1 = x + y;
 
     // 2. ACT
     var sum2 = addTwoNumbers(x, y);
