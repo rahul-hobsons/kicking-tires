@@ -16,15 +16,6 @@
         # Running tests
         RUN npm test
 
-        FROM node AS runner
-
         EXPOSE 8080
-        WORKDIR /app
 
-        # Adding production dependencies to image
-        COPY --from=builder /tmp/node_modules /app/node_modules
-
-        # Copying application code
-        COPY . /app
-
-        CMD npm RUN
+        CMD [ "npm", "start" ]
