@@ -2,7 +2,7 @@
   "name": "kicking-tires",
   "version": "1.0.0",
   "description": "",
-  "main": "test.js",
+  "main": "server.js",
   "directories": {
     "test": "test"
   },
